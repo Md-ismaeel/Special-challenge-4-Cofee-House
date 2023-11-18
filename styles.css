@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(165, 42, 42, 0.2);
+}
+header {
+    background: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+nav input {
+    margin-top: 50px;
+    background-color: #631212;
+    color: white;
+    width: 67%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cofee {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+div {
+ width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: rgba(0, 0, 0, 0.8);
+}
+img {
+    height: 97%;
+    width: 97%;
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+   
+} 
+.image {
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+}
+img:hover {
+    width: 160px;
+    height: 160px;
+    box-shadow: 0px 8px 8px black;
+}
+h4 {
+    margin-top: 15px;
+    font-size: 16px;
+    color: black;
+}
+.xyz {
+    margin: 50px 50px;
+    padding: 40px;
+    color: #A52A2A;
+    background-color: rgb(165, 42, 42, 0.3);
+    box-shadow: 0px 0px 8px brown;
+}
